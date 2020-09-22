@@ -14,7 +14,7 @@ import java.util.Objects;
 public class ReceiveMessageListener extends ListenerAdapter {
 
     /**
-     * @param e - Das Event wird hier abgespeichert
+     * @param e Das Event wird hier abgespeichert
      * Mit dieser Methode fangen wir ab wenn ein User eine Nachricht schreibt
      */
     @Override
@@ -182,9 +182,9 @@ public class ReceiveMessageListener extends ListenerAdapter {
     }
 
     /**
-     * @param member - Das ist der User welcher nach der Rolle abgefragt werden soll
-     * @param id - Das ist die ID der Rolle
-     * @return boolean - Hier wird zurückgegeben, ob der User die Rolle hat oder nicht
+     * @param member Das ist der User welcher nach der Rolle abgefragt werden soll
+     * @param id Das ist die ID der Rolle
+     * @return Boolean Hier wird zurückgegeben, ob der User die Rolle hat oder nicht
      */
     public Role findRole(Member member, String id) {
         List<Role> roles = member.getRoles();
@@ -195,9 +195,9 @@ public class ReceiveMessageListener extends ListenerAdapter {
     }
 
     /**
-     * @param pId - Id der Rolle
-     * @param member - User welcher überprüft wird
-     * @return boolean - Ob der User ein Permission hat oder nicht
+     * @param pId Id der Rolle
+     * @param member User welcher überprüft wird
+     * @return Boolean Ob der User ein Permission hat oder nicht
      */
     public boolean hasPermission(String pId, Member member){
 

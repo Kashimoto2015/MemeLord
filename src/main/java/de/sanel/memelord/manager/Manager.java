@@ -7,8 +7,8 @@ public class Manager {
 
     /**
      *
-     * @param user - User welcher die Nachricht bekommen soll
-     * @param content - Inhalt der Nachricht
+     * @param user User welcher die Nachricht bekommen soll
+     * @param content Inhalt der Nachricht
      * Diese Methode sendet einem User eine private Nachricht auf Discord
      */
     public static void sendDirectMessage(User user, String content){
@@ -22,8 +22,8 @@ public class Manager {
 
     /**
      *
-     * @param user - User welcher die Nachricht bekommen soll
-     * @param content - Inhalt der Nachricht
+     * @param user User welcher die Nachricht bekommen soll
+     * @param content Inhalt der Nachricht
      * Diese Methode sendet einem User eine private Nachricht auf Discord
      */
     public static void sendDirectMessage(User user, MessageEmbed content){

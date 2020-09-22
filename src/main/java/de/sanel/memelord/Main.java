@@ -20,23 +20,23 @@ public class Main {
     public static TextChannel standardChannel;
 
     /**
-     * @return TextChannel - Speichert die Channel wo man den Bot verwenden darf
+     * @return TextChannel Speichert die Channel wo man den Bot verwenden darf
      */
     public static TextChannel getStandardChannel(){
         return standardChannel;
     }
 
     /**
-     * @param channel - Textchannel welcher als Standardchannel gesetzt werden soll
+     * @param channel Textchannel welcher als Standardchannel gesetzt werden soll
      */
     public static void setStandardChannel(TextChannel channel){
         standardChannel = channel;
     }
 
     /**
-     * @param args - Augumente für den Start des Programmes
+     * @param args Augumente für den Start des Programmes
      * @throws LoginException
-     * Main-Methode - Hier wird der Bot gestartet
+     * Main-Methode Hier wird der Bot gestartet
      */
     public static void main(String[] args) throws LoginException {
 

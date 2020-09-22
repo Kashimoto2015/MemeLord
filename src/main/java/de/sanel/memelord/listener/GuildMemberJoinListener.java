@@ -16,7 +16,7 @@ public class GuildMemberJoinListener extends ListenerAdapter {
 
     /**
      * Event welches ausgelöst wird wenn ein neuer User dem Server beitritt
-     * @param e - Das Event wird hier abgespeichert
+     * @param e Das Event wird hier abgespeichert
      */
     @Override
     public void onGuildMemberJoin(GuildMemberJoinEvent e){
