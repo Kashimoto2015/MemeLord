@@ -18,6 +18,7 @@ import javax.security.auth.login.LoginException;
 public class Main {
 
     public static TextChannel standardChannel;
+    public static TextChannel adminChannel;
 
     /**
      * @return TextChannel Speichert die Channel wo man den Bot verwenden darf
@@ -26,11 +27,19 @@ public class Main {
         return standardChannel;
     }
 
+    public static TextChannel getAdminChannel(){
+        return adminChannel;
+    }
+
     /**
      * @param channel Textchannel welcher als Standardchannel gesetzt werden soll
      */
     public static void setStandardChannel(TextChannel channel){
         standardChannel = channel;
+    }
+
+    public static void setAdminChannel(TextChannel channel){
+        adminChannel = channel;
     }
 
     /**
@@ -47,6 +56,7 @@ public class Main {
         builder.addEventListeners(new ReceiveMessageListener());
         builder.addEventListeners(new GuildMemberJoinListener());
         standardChannel = null;
+        adminChannel = null;
 
         builder.build();
     }
