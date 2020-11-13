@@ -50,7 +50,7 @@ public class Main {
     public static void main(String[] args) throws LoginException {
 
         DefaultShardManagerBuilder builder = new DefaultShardManagerBuilder();
-        builder.setToken("NzU2Nzc3NDE0MzI3MDA5MzUx.X2Wx4w.H4dJ92mPm-dCYYQ_XERyjqZC6Gw");
+        builder.setToken("NzU2Nzc3NDE0MzI3MDA5MzUx.X2Wx4w.wjvTu4yXJ3zLUBbNnXESTzx32A4");
         builder.setActivity(Activity.watching("Memes auf Reddit"));
         builder.setStatus(OnlineStatus.ONLINE);
         builder.addEventListeners(new ReceiveMessageListener());
